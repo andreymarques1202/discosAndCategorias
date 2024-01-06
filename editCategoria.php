@@ -26,7 +26,7 @@ try {
         </div>
         <div class="form-group">
             <label for="ano">observações da categoria: </label>
-            <input type="text" class="form-control" name="ano" id="ano" placeholder="Digite as observações" value="<?= $categoria["observacao"] ?>" required>
+            <input type="text" class="form-control" name="observacao" id="observacao" placeholder="Digite as observações" value="<?= $categoria["observacao"] ?>" required>
         </div>
         <button type="submit" class="btn btn-primary" id="button">Atualizar</button>
     </form>
