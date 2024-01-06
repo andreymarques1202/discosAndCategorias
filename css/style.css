@@ -3,10 +3,134 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    color: #fff;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
-h1 {
+nav {
+    margin-bottom: 30px;
+}
+
+#main-title {
     text-align: center;
+    margin: 15px 0 30px;
+}
+
+table tbody td{
     color: #fff;
+}
+
+#discos-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#discos-table thead {
+    color: #fff;
+    
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#categorias-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#categorias-table thead {
+    color: #fff;
+    
+}
+
+.col-id {
+    font-weight: bold;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color: #1e7e34;
+}
+
+.edit-icon {
+    color: #007bff;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-icon {
+    color: #bd2130;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-icon {
+    color: #bd2130;
+}
+
+#empty-list-text {
+    text-align: center;
+}
+
+#msg {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#view-disco-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#back-link-conteiner {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0; 
+}
+
+#back-link {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover {
+    text-decoration: none;
+}
+
+#create-form, #edit-form {
+    max-width: 500px;
+}
+
+@media(max-width: 480px) {
+    #home-link {
+        display: none;
+    }
 }
