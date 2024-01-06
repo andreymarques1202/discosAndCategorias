@@ -1,9 +1,7 @@
 <?php
 
 $databasePath = __DIR__ . "/banco.sqlite";
-$pdo = new PDO("sqlite:$databasePath");
-
-echo "Conectado";
+$connect = new PDO("sqlite:$databasePath");
 
 $createTableSql = "CREATE TABLE IF NOT EXISTS categorias (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,3 +15,5 @@ $createTableSql = "CREATE TABLE IF NOT EXISTS categorias (
     categoria_id INTEGER,
     FOREIGN KEY (categoria_id) REFERENCES categorias(id)
     )";
+
+    $connect->exec($createTableSql);
